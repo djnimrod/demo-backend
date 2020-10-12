@@ -15,7 +15,7 @@ db.sequelize.sync();
 });
 */
 var corsOptions = {
-    origin : "http://localhost:3000"
+    origin : "https://backend-nodejs-postgresql.herokuapp.com"
 };
 
 app.use(cors(corsOptions));
