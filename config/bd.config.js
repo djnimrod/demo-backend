@@ -1,5 +1,5 @@
 module.exports = {
-    HOST :  "localhost",
+    HOST :  "backend-nodejs-postgresql.herokuapp.com/",
     USER : "postgres",
     PASSWORD : "puntodev",
     DB : "tutorialdb",
