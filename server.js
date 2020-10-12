@@ -7,13 +7,13 @@ const app = express();
 // invocando al models
 const db = require("./models");
 // modo produccion
-//db.sequelize.sync();
+db.sequelize.sync();
 
 // mode development
-db.sequelize.sync({ force: true }).then(() => {
+/*db.sequelize.sync({ force: true }).then(() => {
     console.log("Drop and re-sync db.");
 });
-
+*/
 var corsOptions = {
     origin : "http://localhost:3000"
 };
